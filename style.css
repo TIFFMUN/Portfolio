@@ -785,17 +785,6 @@ footer p {
     .input-box input{
         padding: 0.5em 1em;
     }
-    footer{
-        flex-direction: column;
-        gap: 0.8em;
-        align-items: center;
-    }
-    .footer-menu {
-        font-size: 0.8em;
-    }
-    #social-icons-footer{
-        font-size: 3.5em;
-    }
     .timeline{
         margin: 50px auto;
     }
@@ -829,5 +818,15 @@ footer p {
     }
     #copyright{
         font-size: 0.8em;
+    }
+    footer{
+        gap: 0.8em;
+        align-items: center;
+    }
+    .footer-menu {
+        font-size: 0.8em;
+    }
+    #social-icons-footer{
+        font-size: 3.5em;
     }
 }

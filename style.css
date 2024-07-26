@@ -727,6 +727,10 @@ footer p {
     align-items: center;
     text-align: center;
     }
+    .contact-left{
+        margin-right: 0;
+        margin-left: 0;
+    }
     #copyright {
         text-align: center;
     }
@@ -782,6 +786,10 @@ footer p {
     #contact .input-box span{
         font-size: 1.2em;
     }
+    .contact-left{
+        margin-right: 0;
+        margin-left: 0;
+    }
     .input-box input{
         padding: 0.5em 1em;
     }
@@ -820,7 +828,7 @@ footer p {
         font-size: 0.8em;
     }
     footer{
-        gap: 0.8em;
+        gap: 2em;
         align-items: center;
     }
     .footer-menu {

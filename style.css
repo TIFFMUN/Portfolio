@@ -638,6 +638,7 @@ footer p {
 #social-icons-footer{
     display: flex;
     position: relative;
+    align-items: center;
     z-index: 10;
 }
 
@@ -795,7 +796,12 @@ footer p {
     .social-icons{
         display: flex;
         font-size: 3.5em;
-        z-index: 15;
+    }
+    #social-icons-footer{
+        display: flex;
+        position: relative;
+        align-items: center;
+        z-index: 10;
     }
     .timeline{
         margin: 50px auto;

@@ -618,7 +618,7 @@ footer {
     width: 100%;
     font-size: 1em;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -629,19 +629,10 @@ footer p {
     font-size: 1.2em;
 }
 
-/* .social-icons {
-    position: relative;
-    z-index: 100;
+.social-icons {
     font-size: 4em;
-} */
-
-#social-icons-footer{
-    display: flex;
-    align-items: center;
-    font-size: 4em;
-    position: relative;
-    z-index: 100;
 }
+
 
 #copyright{
     font-size: 1em;
@@ -793,13 +784,6 @@ footer p {
     }
     .footer-menu {
         font-size: 0.8em;
-    }
-    /* .social-icons{
-        display: flex;
-        font-size: 3.5em;
-    } */
-    #social-icons-footer{
-        font-size: 3.5em;
     }
     .timeline{
         margin: 50px auto;

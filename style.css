@@ -828,5 +828,6 @@ footer p {
     }
     #social-icons-footer{
         font-size: 3.5em;
+        display: none;
     }
 }

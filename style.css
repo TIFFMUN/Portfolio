@@ -629,10 +629,18 @@ footer p {
     font-size: 1.2em;
 }
 
-.social-icons {
+/* .social-icons {
     font-size: 4em;
-}
+} */
 
+#social-icons-footer{
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    font-size: 4em;
+    position: relative;
+    z-index: 100;
+}
 
 #copyright{
     font-size: 1em;
@@ -784,6 +792,9 @@ footer p {
     }
     .footer-menu {
         font-size: 0.8em;
+    }
+    #social-icons-footer{
+        font-size: 3.5em;
     }
     .timeline{
         margin: 50px auto;

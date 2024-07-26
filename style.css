@@ -630,6 +630,8 @@ footer p {
 }
 
 .social-icons {
+    position: relative;
+    z-index: 10;
     font-size: 4em;
 }
 
@@ -818,8 +820,5 @@ footer p {
         border-right: 15px solid var(--special-color);
         border-left: 0;
         left:45.4px;
-    }
-    #copyright{
-        color:var(--tertiary-color);
     }
 }

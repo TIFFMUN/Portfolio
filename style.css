@@ -755,11 +755,15 @@ footer p {
     #projects .box{
         font-size: 0.8em;
     }
+    .box{
+        justify-content: center;
+    }
     .projects-container{
-        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        grid-template-columns: 1fr;
     }
     .box img{
-        max-width: 225px;
+        max-width: 100%;
+        height: auto;
         border-radius: 0.5em;
     }
     .header2{
@@ -781,6 +785,7 @@ footer p {
         font-size: 0.8em;
     }
     .social-icons{
+        display: flex;
         font-size: 3.5em;
     }
     .timeline{
@@ -813,5 +818,8 @@ footer p {
         border-right: 15px solid var(--special-color);
         border-left: 0;
         left:45.4px;
+    }
+    #copyright{
+        color:var(--tertiary-color);
     }
 }

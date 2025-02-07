@@ -1,3 +1,3 @@
-# My Portfolio Website 
+# Portfolio Website
 Built using HTML, CSS, JavaScript
 Website URL: tiffanymun.com
